@@ -14,7 +14,7 @@ Once Signed In, the user will have access to a basic panel which  will display a
 
 The user inserts the image address and executes the query, the FrontEnd then loads the submitted image URL on the app, an once the BackEnd responds with the results of the AI identifying the location of the face (using coordinates to locate a rectangle), the FrontEnd then will take these coordinates and Draw on the image a square highlighting the face area.
 
-The BackEnd has been developed using [Node.js](https://nodejs.org/en/), [Express.js](https://expressjs.com/) and using [Body Parser](https://www.npmjs.com/package/body-parser), [Bcrypt](https://www.npmjs.com/package/bcrypt-nodejs) and [Knex](http://knexjs.org/) as NPMs.
+The [BackEnd](https://github.com/WalkerAlonso/facerecognitionapp-api) has been developed using [Node.js](https://nodejs.org/en/), [Express.js](https://expressjs.com/) and using [Body Parser](https://www.npmjs.com/package/body-parser), [Bcrypt](https://www.npmjs.com/package/bcrypt-nodejs) and [Knex](http://knexjs.org/) as NPMs.
 
  - - - -
  
